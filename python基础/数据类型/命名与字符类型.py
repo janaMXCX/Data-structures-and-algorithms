@@ -1,0 +1,10 @@
+name="解雨轩"
+print(name)#值
+print(id(name))#标识
+print(type(name))#类型
+"""
+整数类型-->int-->98
+浮点数类型-->float-->3.14159
+布尔类型-->bool-->True,False
+字符串类型-->str-->"解雨轩"
+"""

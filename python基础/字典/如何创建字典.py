@@ -1,0 +1,9 @@
+#最常用的方式是使用花括号创建字典
+#其次也可以用内置函数dict()
+a={"张三":100,'李四':98,'王五':45}
+print(type(a))
+student=dict(name='jack',age='20')#等号前面是键，等号后面是值
+print(student)
+#创建空字典
+b={}
+print(b)

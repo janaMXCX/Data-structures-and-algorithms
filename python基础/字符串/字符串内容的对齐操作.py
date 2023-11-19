@@ -1,0 +1,14 @@
+s='hello,python'
+print(s.center(20,'*'))#居中对齐，并以第二个参数进行填充。
+'''左对齐'''
+print(s.ljust(20,'*'))
+print(s.ljust(10))
+print(s.ljust(20))#不写填充默认填充为空格
+'''右对齐'''
+print(s.rjust(20,'*'))
+print(s.rjust(10))
+print(s.rjust(20))
+'''右对齐,使用0进行填充'''
+print(s.zdill(20))
+print(s.zfill(10))
+print('-8910'.zfill(10))

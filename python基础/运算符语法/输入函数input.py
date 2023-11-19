@@ -1,0 +1,21 @@
+"""
+input
+    作用:接受来自用户的输入
+    返回值类型:输入值的类型为str
+    值的储存：使用=对输入的值进行储存
+"""
+#present(变量)=(赋值运算符)input()其中填写提示语，输入的内容会成为变量
+present=input('雨轩想要什么礼物呢？')
+print(present,type(present))
+
+#input函数的高级使用
+a=input('请输入第一个数')
+b=input('请输入第二个数')
+print(a+b)
+print(int(a)+int(b))#由于我们输入的类型为str字符串类型所以相加会进行物理层面相加
+                    #而进行类型转化为int整数类型时，就可以得到正常的加法运算
+#或者也可以在输入时进行转换
+c=int(input('输入第一个数'))
+d=int(input('输入第二个数'))
+e=c+d
+print(e)
